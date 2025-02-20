@@ -17,7 +17,7 @@ gsap.registerPlugin(ScrollTrigger);
 export default function Home() {
   return (
     <main className="relative min-h-screen">
-      <AnimatedBackground />
+      {/* <AnimatedBackground /> */}
       <Navbar />
       <Hero />
       <Services />
