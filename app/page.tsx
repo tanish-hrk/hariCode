@@ -10,14 +10,14 @@ import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import AnimatedBackground from "@/components/AnimatedBackground";
+// import AnimatedBackground from "@/components/AnimatedBackground";
 
 gsap.registerPlugin(ScrollTrigger);
 
 export default function Home() {
   return (
     <main className="relative min-h-screen">
-      <AnimatedBackground />
+      {/* <AnimatedBackground /> */}
       <Navbar />
       <Hero />
       <Services />
